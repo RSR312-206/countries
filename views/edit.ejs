@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/app.css' />
+  </head>
+  <body>
+    <form method='POST' action="/countries/<%=country.id%>?_method=put" >
+      <input type='text' name='name' value= "<%= country.name%>">Country</input>
+      <input type='text' name='flag'value= "<%= country.flag%>">Flag</input>
+      <input type='text' name='capital' value= "<%= country.capital%>">Capital</input>
+      <input type='text' name='population' value= "<%= country.population%>">Population</input>
+      <input type="submit" value="Edit">
+    </form>
+    <a href='/countries'>back to your list of countries</a>
+  </body>
+</html>

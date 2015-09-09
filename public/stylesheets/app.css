@@ -1,0 +1,33 @@
+html {
+  color: #333333;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: white;
+  font-size: 18px;
+  color: white;
+  font-style: wide;
+  background: no-repeat linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+table {
+  background-color: grey;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 3px;
+  border: solid black 2px;
+  text-align: center;
+  box-shadow: 18px 22px 5px 0px rgba(0,0,0,0.75);
+}
+
+.details {
+  width: 150px;
+  margin: 0;
+  text-align: left;
+}
+
+img {
+  width: 140px;
+  height: 100px;
+}
+
+a:active {color: brown; text-decoration: underline; }
+a:visited {color: lightblue; text-decoration: underline; },

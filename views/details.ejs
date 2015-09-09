@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/app.css' />
+  </head>
+  <body>
+   <h3>Details</h3>
+   <table colspan='2' alligh='left' cellspacing= '50'>
+    <thead>
+      <th>Country</th>
+      <th>Flag</th>
+      <th>Capital</th>
+      <th>Population</th>
+      <thead>
+        <tbody>
+          <tr>
+          <td><%=country.name%></td>
+          <td><img src='<%=country.flag%>'></td>
+          <td><%=country.capital%></td>
+          <td><%=country.population%></td>
+          <tr>
+            <tbody>
+              </table>
+              <br>
+<a href='/countries'>back to countries</a>
+  </body>
+</html>
